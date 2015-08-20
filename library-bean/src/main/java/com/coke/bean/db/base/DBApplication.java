@@ -1,4 +1,4 @@
-package com.coke.bean.db;
+package com.coke.bean.db.base;
 
 import android.app.Application;
 import com.raizlabs.android.dbflow.config.FlowManager;

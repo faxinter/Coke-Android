@@ -2,6 +2,7 @@ package com.coke.base;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+import android.support.v7.app.AppCompatActivity;
 
 import com.coke.base.analytics.AppAnalytics;
 import com.coke.base.net.CokeBaseApi;
@@ -14,7 +15,7 @@ import butterknife.ButterKnife;
  * @ Date 15/1/19 下午4:06
  * @ Description: // 父
  */
-public class CokeBaseActivity extends FragmentActivity {
+public class CokeBaseActivity extends AppCompatActivity {
 
     private static boolean INITED = false;  // 用于程序入口
 
