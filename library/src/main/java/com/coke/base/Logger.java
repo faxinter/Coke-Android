@@ -2,8 +2,6 @@ package com.coke.base;
 
 import android.util.Log;
 
-import com.coke.sample.BuildConfig;
-
 /**
  * @ Author Wan,Faxue
  * @ Date 15/1/22 下午3:18
@@ -20,7 +18,7 @@ public class Logger {
     }
 
     public static boolean isDebuggable() {
-        return BuildConfig.DEBUG;
+        return AppConfig.DEBUG;
     }
 
     private static String createLog(String log) {

@@ -18,12 +18,18 @@
         android:id="@+id/get_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Get Sample"/>
+        android:text="Get Sample" />
+
+    <Button
+        android:id="@+id/err_url_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Error Url" />
 
     <Button
         android:id="@+id/timeout_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Time Out Sample"/>
+        android:text="Time Out Sample" />
 
 </LinearLayout>

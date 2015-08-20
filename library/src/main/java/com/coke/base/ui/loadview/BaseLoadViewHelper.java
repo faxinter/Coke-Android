@@ -5,7 +5,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.coke.sample.R;
+import com.coke.base.R;
 
 /**
  * 自定义要切换的布局，通过IVaryViewHelper实现真正的切换<br>

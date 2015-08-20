@@ -1,0 +1,10 @@
+package com.coke.bean.modles.base;
+
+/**
+ * @ Author Wan,Faxue
+ * @ Date 15/3/11 上午11:03
+ * @ Description: //顶级 model
+ */
+public class CokeBaseModel extends ErrorModel {
+
+}

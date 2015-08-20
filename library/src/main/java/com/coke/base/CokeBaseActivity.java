@@ -5,7 +5,6 @@ import android.support.v4.app.FragmentActivity;
 
 import com.coke.base.analytics.AppAnalytics;
 import com.coke.base.net.CokeBaseApi;
-import com.coke.sample.BuildConfig;
 import com.umeng.analytics.MobclickAgent;
 
 import butterknife.ButterKnife;
@@ -78,7 +77,7 @@ public class CokeBaseActivity extends FragmentActivity {
     private void initUmeng() {
         if (INITED) return; // 只初始化一次
         Logger.i("初始化友盟统计...");
-        if (BuildConfig.DEBUG) {
+        if (AppConfig.DEBUG) {
             MobclickAgent.setDebugMode(true);
         }
         MobclickAgent.updateOnlineConfig(this);
