@@ -4,7 +4,7 @@ import android.os.Bundle;
 
 import com.coke.base.CokeBaseActivity;
 import com.coke.base.Logger;
-import com.coke.bean.db.TestModel;
+import com.coke.library.db.TestModel;
 import com.coke.sample.R;
 import com.raizlabs.android.dbflow.sql.builder.Condition;
 import com.raizlabs.android.dbflow.sql.language.Delete;

@@ -1,4 +1,4 @@
-package com.coke.bean.models;
+package com.coke.library.models;
 
 import com.bluelinelabs.logansquare.annotation.JsonField;
 import com.bluelinelabs.logansquare.annotation.JsonObject;

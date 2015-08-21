@@ -1,6 +1,6 @@
 package com.coke.sample;
 
-import com.coke.bean.db.base.DBApplication;
+import com.coke.library.db.base.DBApplication;
 
 /**
  * @ Author Wan,Faxue

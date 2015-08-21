@@ -1,4 +1,4 @@
-package com.coke.bean;
+package com.coke.library;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

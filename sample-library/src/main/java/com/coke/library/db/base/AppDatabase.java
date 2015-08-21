@@ -1,4 +1,4 @@
-package com.coke.bean.db.base;
+package com.coke.library.db.base;
 
 import com.raizlabs.android.dbflow.annotation.Database;
 

@@ -1,10 +1,9 @@
-package com.coke.bean.db;
+package com.coke.library.db;
 
-import com.coke.bean.db.base.AppDatabase;
+import com.coke.library.db.base.AppDatabase;
+import com.coke.library.db.base.DBBaseModel;
 import com.raizlabs.android.dbflow.annotation.Column;
-import com.raizlabs.android.dbflow.annotation.PrimaryKey;
 import com.raizlabs.android.dbflow.annotation.Table;
-import com.raizlabs.android.dbflow.structure.BaseModel;
 
 /**
  * @ Author Wan,Faxue
@@ -13,11 +12,11 @@ import com.raizlabs.android.dbflow.structure.BaseModel;
  */
 
 @Table(databaseName = AppDatabase.NAME)
-public class TestModel extends BaseModel {
+public class TestModel extends DBBaseModel {
 
-    @PrimaryKey(autoincrement = true)
-    @Column
-    long id;
+//    @PrimaryKey(autoincrement = true)
+//    @Column
+//    long id;
 
     @Column(name = "name")
     public String name;
