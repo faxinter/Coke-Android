@@ -4,7 +4,7 @@ import android.os.Bundle;
 
 import com.coke.base.CokeBaseActivity;
 import com.coke.base.Logger;
-import com.coke.bean.modles.IpInfo;
+import com.coke.bean.models.IpInfo;
 import com.coke.base.net.HttpResponseHandler;
 import com.coke.library.api.MainApi;
 import com.coke.sample.R;

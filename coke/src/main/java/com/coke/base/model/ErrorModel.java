@@ -1,4 +1,4 @@
-package com.coke.bean.modles.base;
+package com.coke.base.model;
 
 /**
  * @ Author Wan,Faxue

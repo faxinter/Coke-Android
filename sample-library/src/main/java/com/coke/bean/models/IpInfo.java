@@ -1,8 +1,8 @@
-package com.coke.bean.modles;
+package com.coke.bean.models;
 
 import com.bluelinelabs.logansquare.annotation.JsonField;
 import com.bluelinelabs.logansquare.annotation.JsonObject;
-import com.coke.bean.modles.base.CokeBaseModel;
+import com.coke.base.model.CokeBaseModel;
 
 /**
  * @ Author Wan,Faxue

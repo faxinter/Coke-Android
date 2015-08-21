@@ -1,1 +1,1 @@
-include ':library', ':library-bean','sample'
+include ':coke', ':sample-library','sample'

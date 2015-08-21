@@ -26,7 +26,9 @@ dependencies {
     compile 'com.loopj.android:android-async-http:1.4.7'
     compile 'com.jakewharton:butterknife:7.0.1'
     compile 'de.greenrobot:eventbus:2.4.0'
+
+    compile 'com.bluelinelabs:logansquare:1.1.0'
+
     // 友盟统计
     compile 'com.umeng.analytics:analytics:latest.integration'
-    compile project(':library-bean')
 }
