@@ -36,7 +36,7 @@ dependencies {
     compile 'com.umeng.analytics:analytics:latest.integration'
 }
 
-group = "com.springwater"
+group = "com.coke.android"
 version = "0.0.1"
 
 def siteUrl = 'https://github.com/wfxphoebus/Coke-Android.git'      // 项目的主页
