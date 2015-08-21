@@ -1,13 +1,13 @@
 package com.coke.sample;
 
-import com.coke.base.CokeBaseApplication;
+import com.coke.bean.db.base.DBApplication;
 
 /**
  * @ Author Wan,Faxue
  * @ Date 15/1/19 下午4:01
  * @ Description: // 父
  */
-public class AppApplication extends CokeBaseApplication {
+public class AppApplication extends DBApplication {
 
     @Override
     public void onCreate() {
