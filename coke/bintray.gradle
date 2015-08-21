@@ -1,43 +1,9 @@
-apply plugin: 'com.android.library'
-apply plugin: 'com.jakewharton.hugo'
-
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
+// This is the library version used when deploying the artifact
 
-android {
-    compileSdkVersion 21
-    buildToolsVersion "21.1.2"
-
-    defaultConfig {
-        minSdkVersion 8
-        targetSdkVersion 21
-        versionCode 1
-        versionName "1.0"
-    }
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-    }
-}
-
-dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:22.2.1'
-    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.4'
-    compile 'com.loopj.android:android-async-http:1.4.7'
-    compile 'com.jakewharton:butterknife:7.0.1'
-    compile 'de.greenrobot:eventbus:2.4.0'
-
-    compile 'com.bluelinelabs:logansquare:1.1.0'
-
-    // 友盟统计
-    compile 'com.umeng.analytics:analytics:latest.integration'
-}
-
-group = "com.springwater"
-version = "0.0.1"
+group = "org.rocko.bpb"
+version = "0.1"
 
 def siteUrl = 'https://github.com/wfxphoebus/Coke-Android.git'      // 项目的主页
 def gitUrl = 'https://github.com/wfxphoebus/Coke-Android.git'   // Git仓库的url
@@ -83,7 +49,6 @@ task javadoc(type: Javadoc) {
     source = android.sourceSets.main.java.srcDirs
     classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
     options.encoding = "UTF-8"
-    failOnError false
 }
 task javadocJar(type: Jar, dependsOn: javadoc) {
     classifier = 'javadoc'
@@ -94,7 +59,7 @@ artifacts {
     archives sourcesJar
 }
 Properties properties = new Properties()
-properties.load(project.rootProject.file('local.properties').newDataInputStream())
+properties.load(project.rootProject.file('../local.properties').newDataInputStream())
 
 bintray {
     user = properties.getProperty("bintray.user")

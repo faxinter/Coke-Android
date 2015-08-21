@@ -1,13 +1,10 @@
 package com.coke.base;
 
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
-import android.support.v7.app.AppCompatActivity;
-
+import android.support.v7.app .AppCompatActivity;
 import com.coke.base.analytics.AppAnalytics;
 import com.coke.base.net.CokeBaseApi;
 import com.umeng.analytics.MobclickAgent;
-
 import butterknife.ButterKnife;
 
 /**
